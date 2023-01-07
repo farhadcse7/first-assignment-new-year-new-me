@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* Banner Styles */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+
+}
+
+.banner-contents {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 216px;
+    padding-left: 845px;
+    padding-bottom: 166px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    line-height: 76px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 25px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+.btn-white {
+    background-color: #FFFFFF;
+    color: #005FAC;
+}
+
+/* Main Section  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+section {
+    margin-top: 130px;
+}
+
+/* Failures Section */
+
+.failures-section {
+    max-width: 1072px;
+}
+
+.failures-contents {
+    display: flex;
+    gap: 87px;
+}
+
+.text-section {
+    margin-top: 245px;
+    margin-bottom: 24px;
+}
+
+.failures-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+
+.failures-check {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.fa-check {
+    color: #33DD96;
+    font-size: 24px;
+}
+
+/* My Plan Section Styles */
+.topic {
+    margin: 0 auto;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.topic-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plans-topics {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.topic-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* Mindset Section Styles */
+
+.mindset {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    margin-bottom: 130px;
+}
+
+.mindset-contents {
+    padding: 59px 617px 59px 64px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-call-now {
+    padding: 20px 36px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* Footer Section Styles */
+.footer {
+    background-color: #151414;
+}
+
+.footer-contents {
+    display: flex;
+    background-color: #151414;
+    color: white;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Footer- future styles */
+.future {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-right: 330px;
+    max-width: 485px;
+}
+
+.future-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.future-description {
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+.future-description-front {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.phone-number {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.social-twitter {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Footer- subscribe Styles  */
+
+.subscribe {
+    margin-top: 130px;
+    margin-bottom: 243px;
+
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.email {
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.btn-subscribe {
+    color: #FFFFFF;
+    background-color: #005FAC;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px 100px 21px 21px;
+    color: #F3F3F3;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    background-color: #005FAC;
+}
